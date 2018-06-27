@@ -1,0 +1,84 @@
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/ll1"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logolayout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:background="@drawable/logolayout"
+        android:orientation="horizontal"
+        android:id="@+id/ll2">
+        <Button
+            android:id="@+id/imgv"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:textSize="15sp"
+            android:layout_margin="4dp"
+            android:textAllCaps="false"
+            android:textColor="@color/txcolor"
+            android:background="@drawable/buttondesign"
+            android:text="Choose Image" />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:textSize="15sp"
+            android:layout_margin="4dp"
+            android:textAllCaps="false"
+            android:textColor="@color/txcolor"
+            android:background="@drawable/buttondesign"
+            android:id="@+id/video"
+            android:text="Choose Video" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="300dp" />
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:visibility="gone"
+        android:layout_margin="20dp"
+        android:id="@+id/vv1" />
+
+
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+       android:background="@drawable/logolayout"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/up1"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_margin="4dp"
+            android:textColor="@color/txcolor"
+            android:background="@drawable/buttondesign"
+            android:text="Upload Image"
+            android:textAllCaps="false"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/up2"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/buttondesign"
+            android:text="Upload Video"
+            android:textColor="@color/txcolor"
+            android:textAllCaps="false"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

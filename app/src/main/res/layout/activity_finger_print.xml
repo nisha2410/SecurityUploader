@@ -1,0 +1,19 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/FingerActvity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/logolayout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/finger"
+        android:textSize="20sp"
+        android:layout_margin="40dp"
+        android:onClick="img"
+        android:textAllCaps="false"
+        android:id="@+id/Scan"/>
+
+</LinearLayout>

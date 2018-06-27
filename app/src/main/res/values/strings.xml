@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SecurityUploader</string>
+    <string name="LoginText">Login</string>
+    <string name="pass">Password</string>
+    <string name="uname">User name</string>
+    <string name="fbutton">FingerPrint</string>
+    <string name="scan">Scan</string>
+    <string name="wel">Welcome</string>
+    <string name="Register">Register</string></resources>
